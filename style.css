@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-family: Mulish;
+}
+
+body{
+  background:#121214;
+  display: grid;
+  justify-content: center;
+
+  padding: 72px 104px;
+}
+
+header h1{
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 72px;
+
+  color: #02799D;
+}
+
+header p{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  
+  color: #E1E1E6;
+
+}
+
+main{
+  margin-top: 62px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 370px); /*366px, pois é do tamanho da imagem, dessa forma se alinha a caixa*/
+ 
+  row-gap: 48px;
+  column-gap: 60px;
+  /*uma outra forma seria colocar gap:48px 60px;  (nessa ordem, a linha e a coluna, respectivamente)*/
+
+}
+
+
+.card{
+  background: #202024;
+  border: 2px solid #323238;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card h2{
+  padding: 24px 32px 0;
+
+  color: #E1E1E6;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.card p {
+  padding: 24px 32px 32px;
+
+  color:#E1E1E6 ;
+  font-size: 18px;
+  font-weight: 600;
+}
